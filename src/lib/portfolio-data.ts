@@ -8,7 +8,7 @@ export const personalInfo = {
     shortName: "AK",
     title: "Full Stack Developer (Backend-first)",
     tagline: "Building production-grade systems with ASP.NET Core and React",
-    email: "aflahkm636@gmail.com",
+    email: "aflahkm007@gmail.com",
     location: "India",
     availability: "Open to opportunities",
 };
@@ -16,7 +16,8 @@ export const personalInfo = {
 export const socialLinks = {
     github: "https://github.com/aflahkm636",
     linkedin: "https://www.linkedin.com/in/aflah-kayalmadathil-6444b9331/",
-    email: "mailto:aflahkm636@gmail.com",
+    email: "mailto:aflahkm007@gmail.com",
+    whatsapp: "https://wa.me/919645884622?text=Hello",
 };
 
 export const heroContent = {
@@ -92,7 +93,7 @@ export const skills = {
 export const contactContent = {
     title: "Get in Touch",
     description: "I'm currently open to new opportunities. Whether you have a question or just want to connect, feel free to reach out.",
-    email: "aflahkm636@gmail.com",
+    email: "aflahkm007@gmail.com",
 };
 
 export const footerContent = {

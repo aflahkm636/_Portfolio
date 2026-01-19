@@ -34,7 +34,13 @@ export default function Contact() {
                             method="POST"
                             className="space-y-8"
                         >
-                            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+                            {/* 
+                                 To receive emails:
+                                 1. Go to https://web3forms.com/
+                                 2. Enter your email (aflahkm007@gmail.com) to get an Access Key
+                                 3. Paste the key in the 'value' attribute below
+                             */}
+                            <input type="hidden" name="access_key" value="0281a711-1e10-4f11-a609-a747ef76c087" />
                             <input type="hidden" name="subject" value="Portfolio Contact Message" />
                             <input type="hidden" name="from_name" value="Aflah Portfolio" />
                             <input type="hidden" name="redirect" value="https://web3forms.com/success" />

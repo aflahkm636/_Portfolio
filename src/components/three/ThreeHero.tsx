@@ -28,8 +28,8 @@ export default function ThreeHero() {
     // SSR or Mobile fallback: Do NOT load Three.js
     if (isMobile === null || isMobile) {
         return (
-            <div className="absolute inset-0 bg-[#050505]" aria-hidden="true">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(204,255,0,0.03)_0%,transparent_70%)]" />
+            <div className="absolute inset-0 bg-[var(--color-bg-primary)]" aria-hidden="true">
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,var(--color-accent-hover),transparent_70%)] opacity-[0.03]" />
             </div>
         );
     }

@@ -55,8 +55,8 @@ export default function MobileNavToggle() {
                             <a href={socialLinks.github} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
                                 GitHub
                             </a>
-                            <a href={socialLinks.email} className="btn btn-primary">
-                                Get in Touch
+                            <a href={socialLinks.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                                Say Hello
                             </a>
                         </div>
                     </div>
